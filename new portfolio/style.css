@@ -742,11 +742,14 @@ footer span {
 }
 
 .featherlight-content {
-  width: 90%;
-  height: 90%;
+  width: 95%;
+  height: 95%;
   max-height: 100% !important;
   position: relative;
   border-radius: 20px;
+  margin: 0 !important;
+  padding: 0 !important;
+  border-bottom: none !important;
 }
 .featherlight-content .featherlight-inner {
   width: 100%;
@@ -758,6 +761,7 @@ footer span {
   right: 50px !important;
   font-size: 40px;
   transition: 0.3s;
+  background: none !important;
 }
 .featherlight-content .featherlight-close-icon:hover {
   color: rgb(202, 0, 0);
